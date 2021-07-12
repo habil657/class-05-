@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+/* font-family: 'Alfa Slab One', cursive; */
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Montserrat', sans-serif; */
+
+ a,a:hover{
+ 	text-decoration: none;
+ 	cursor: pointer;
+ }
+ 
+ 
+ 
+
+.continer{
+	width: 1140px;
+	margin: 0  auto;
+}
+ 
+ /*start project*/
+
+ .project{
+ 	height: 100vh;
+ 	width: 100%;
+ 	background: url('../img/benar.png'); 
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+
+ }
+
+ .nav-bar{
+ 	display: flex;
+ 	justify-content: space-around;
+ }
+
+.header{
+	padding: 26px 0px;
+}
+
+.menu{
+	text-align: right;
+}
+
+/* .nav-menu{ */
+	/* padding: 20px; 0px; */
+/*  */
+/* } */
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 56px;
+}
+.nav-menu ul li a{
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+
+	font-size: 20px;
+	color: #715129;
+	text-decoration: none;
+	color: #3d2514;
+}
+.contact span{
+	font-family: 'Montserrat', sans-serif;
+	color: #3d2514;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 16px;
+
+}
+
+.contact img{
+	vertical-align: middle;
+}
+
+
+
+
+.content{
+	display: flex;
+	justify-content: space-around;
+}
+.b-right img{
+	max-width: 100%;
+	height: auto;
+}
+
+.b-left{
+	flex-basis: 50%;
+	margin-top: 90px;
+}
+
+.b-right{
+	flex-basis: 50%;
+	position: relative;
+}
+
+.price-tag{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.b-left p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	color: #3d2514; 
+	border: 1px dashed #3d2514;
+	display: inline-block;
+	padding: 5px;
+
+}
+
+.b-left h1{
+
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 100px;
+    color: #3d2514;
+	text-transform: uppercase;
+	text-shadow: 4px 4px white;
+	letter-spacing: 3px;
+}
+
+.b-left h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	color:#3d2514;
+	text-transform: uppercase;
+	text-shadow: 2px 2px white;
+	letter-spacing: 3px;
+}
